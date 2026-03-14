@@ -10,7 +10,7 @@ const watchlistSchema = new mongoose.Schema(
     coinId: { type: String, required: true },
     name: { type: String, required: true },
     symbol: { type: String, required: true },
-    image: { type: String },
+    image: { type: String ,required:true},
     addedAt: { type: Date, default: Date.now },
   },
   { timestamps: true }
