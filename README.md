@@ -52,22 +52,21 @@ npm install
 npm run dev
 
 
-## 📂 Project Structure
+## Project Structure
 
+```text
 crypto-live-tracker
-│
 ├── client
 │   ├── src
 │   ├── components
 │   └── pages
-│
 ├── server
 │   ├── routes
 │   ├── controllers
 │   ├── models
 │   └── middleware
-│
 └── README.md
+```
 
 
 ## 🎯 Learning Outcomes
